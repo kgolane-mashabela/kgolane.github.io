@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>coffe</title>
+  <style>
+    h1 {
+      text-align: center;
+      color: chocolate;
+      
+      }
+      
+    
+    h2 {
+      text-align: center;
+      color: green;
+      border: 1px solid  chocolate;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    img {
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+      max-width: 100%;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 15px;
+      margin: 20px 0 15px;
+    }
+
+    button {
+      display: block;
+      margin:20px auto;
+      background:gold;
+      color: green;
+      font-size: 18px;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 5px 5px 10px rgba(0. 0. 0. 0.3);
+      transition: all 200ms ease-in-out;
+
+    }
+    button:hover {
+      opacity:0.10 ;
+      cursor: pointer;
+      
+
+
+    }
+
+    .learn-more {
+      display: block;
+      margin-top: 20px;
+      text-decoration: none;
+      color:chocolate;
+      font-size: 12px;
+
+
+
+    }
+    .learn-more:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+
+
+    }
+
+    .container {
+      max-width:600px ;
+      margin: 0 auto;
+      padding: 25px  50px;
+      
+    }
+
+    body {
+      
+      background-color: lightpink;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+   <h1>
+        
+        😚
+      I love coffee 
+
+    </h1>
+    <h2> More Espresso ...Less Depresso!! </h2>
+
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/086/984/original/isolated-coffee-cup_24640-51186.jpg?1687688951" width="400">
+
+
+    <p>
+The human body is involved in a constant struggle to resist toxic substances absorbed through food and drinks, pollution
+in the environment, drugs and other ways. Coffee possesses valuable antioxidant properties. This means that when you
+drink that cup of coffee, as well as boosting your energy, you strengthen you help clean out those toxins from your
+body. Drinking coffee, therefore, reduces the risk of infections developing and other illnesses taking hold. However,
+this does not imply that someone with an infection can expect to cure it with a few cups alone. Once you have the
+infection, you need to see a doctor.
+
+</p>
+
+    
+    
+    <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank" class="learn-more">   
+   Learn more from Wikipedia
+    </a>
+
+
+
+    <button class="getbutton">
+      Get Coffee
+    </button>
+    <p class="footer">
+    This page is built by 
+    
+     Kgolane Mashabela
+    😍
+  </p>
+
+    
+
+</div>
+<script>
+  function get () {
+    let name = prompt("what is your name ?");
+    let email = prompt (" what is your email?");
+    let flavour = prompt("what is the flavour of the coffee you love ?");
+    let type = prompt("what type of coffe you prefer?");
+    let order=("You can order now !");
+    alert (" Thank you " );
+  }
+  let getbutton =document.querySelector("getbutton");
+  getbutton =addEventListener("click" , get);
+
+</script>
+</body>
+</html>
